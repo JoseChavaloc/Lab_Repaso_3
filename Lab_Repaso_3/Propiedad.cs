@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab_Repaso_3
 {
-    class Propiedad
+    internal class Propiedad
     {
+        public string dpi { get; set; }
+        public string numero_casa { get; set; }
+        public decimal cuota { get; set; }
+
     }
 }

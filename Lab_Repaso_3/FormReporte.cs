@@ -16,5 +16,10 @@ namespace Lab_Repaso_3
         {
             InitializeComponent();
         }
+
+        private void FormReporte_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

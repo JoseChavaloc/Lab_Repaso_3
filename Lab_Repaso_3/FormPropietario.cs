@@ -16,5 +16,10 @@ namespace Lab_Repaso_3
         {
             InitializeComponent();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

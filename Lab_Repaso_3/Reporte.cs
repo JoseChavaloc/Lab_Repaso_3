@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab_Repaso_3
 {
-    class Reporte
+    internal class Reporte
     {
+        public string dpi { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public string numero_casa { get; set; }
+        public decimal cuota { get; set; }
     }
 }

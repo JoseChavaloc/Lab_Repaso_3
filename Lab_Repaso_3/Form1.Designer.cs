@@ -41,6 +41,7 @@
             this.btnPropietario.TabIndex = 0;
             this.btnPropietario.Text = "REGISTRAR PROPIETARIO";
             this.btnPropietario.UseVisualStyleBackColor = true;
+            this.btnPropietario.Click += new System.EventHandler(this.btnPropietario_Click);
             // 
             // btnReporte
             // 
@@ -60,6 +61,7 @@
             this.btnPropiedad.TabIndex = 2;
             this.btnPropiedad.Text = "REGISTRAR PROPIEDAD";
             this.btnPropiedad.UseVisualStyleBackColor = true;
+            this.btnPropiedad.Click += new System.EventHandler(this.btnPropiedad_Click);
             // 
             // Form1
             // 

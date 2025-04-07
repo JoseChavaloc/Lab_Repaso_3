@@ -40,14 +40,13 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnPropietarios = new System.Windows.Forms.Button();
             this.btnReporte = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 61);
+            this.label1.Location = new System.Drawing.Point(44, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 16);
             this.label1.TabIndex = 0;
@@ -56,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 109);
+            this.label2.Location = new System.Drawing.Point(434, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 16);
             this.label2.TabIndex = 1;
@@ -65,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 159);
+            this.label3.Location = new System.Drawing.Point(47, 87);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(195, 16);
             this.label3.TabIndex = 2;
@@ -74,21 +73,21 @@
             // cmbdpi
             // 
             this.cmbdpi.FormattingEnabled = true;
-            this.cmbdpi.Location = new System.Drawing.Point(256, 53);
+            this.cmbdpi.Location = new System.Drawing.Point(219, 30);
             this.cmbdpi.Name = "cmbdpi";
-            this.cmbdpi.Size = new System.Drawing.Size(121, 24);
+            this.cmbdpi.Size = new System.Drawing.Size(178, 24);
             this.cmbdpi.TabIndex = 3;
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(256, 103);
+            this.txtNumero.Location = new System.Drawing.Point(568, 38);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(100, 22);
+            this.txtNumero.Size = new System.Drawing.Size(133, 22);
             this.txtNumero.TabIndex = 4;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(256, 156);
+            this.maskedTextBox1.Location = new System.Drawing.Point(263, 81);
             this.maskedTextBox1.Mask = "9999.99";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
@@ -97,11 +96,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(603, 283);
+            this.dataGridView1.Location = new System.Drawing.Point(47, 151);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(641, 182);
             this.dataGridView1.TabIndex = 6;
             // 
             // btnCerrar
@@ -113,60 +112,54 @@
             this.btnCerrar.TabIndex = 7;
             this.btnCerrar.Text = "CERRAR";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(47, 233);
+            this.btnGuardar.Location = new System.Drawing.Point(857, 49);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(171, 54);
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "GUARDAR";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(331, 233);
+            this.btnMostrar.Location = new System.Drawing.Point(720, 215);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(137, 54);
             this.btnMostrar.TabIndex = 9;
             this.btnMostrar.Text = "ACTUALIZAR";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnPropietarios
             // 
-            this.btnPropietarios.Location = new System.Drawing.Point(50, 354);
+            this.btnPropietarios.Location = new System.Drawing.Point(631, 400);
             this.btnPropietarios.Name = "btnPropietarios";
-            this.btnPropietarios.Size = new System.Drawing.Size(168, 57);
+            this.btnPropietarios.Size = new System.Drawing.Size(162, 49);
             this.btnPropietarios.TabIndex = 10;
             this.btnPropietarios.Text = "IR A PROPIETARIOS";
             this.btnPropietarios.UseVisualStyleBackColor = true;
+            this.btnPropietarios.Click += new System.EventHandler(this.btnPropietarios_Click);
             // 
             // btnReporte
             // 
-            this.btnReporte.Location = new System.Drawing.Point(340, 368);
+            this.btnReporte.Location = new System.Drawing.Point(808, 400);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(128, 43);
+            this.btnReporte.Size = new System.Drawing.Size(140, 49);
             this.btnReporte.TabIndex = 11;
             this.btnReporte.Text = "IR A REPORTES";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReporte.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(471, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 16);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "REGISTRO";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // FormPropiedad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1137, 498);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnReporte);
             this.Controls.Add(this.btnPropietarios);
             this.Controls.Add(this.btnMostrar);
@@ -202,6 +195,5 @@
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnPropietarios;
         private System.Windows.Forms.Button btnReporte;
-        private System.Windows.Forms.Label label4;
     }
 }
