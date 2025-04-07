@@ -46,6 +46,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(770, 401);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnMostrar
             // 
@@ -55,6 +56,7 @@
             this.btnMostrar.TabIndex = 1;
             this.btnMostrar.Text = "ORDENAR POR FECHA DE INGRESO";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnOrdenCuota
             // 
@@ -64,6 +66,7 @@
             this.btnOrdenCuota.TabIndex = 2;
             this.btnOrdenCuota.Text = "ORDENAR POR CUOTA DE MANTENIMIENTO DESCENDENTE";
             this.btnOrdenCuota.UseVisualStyleBackColor = true;
+            this.btnOrdenCuota.Click += new System.EventHandler(this.btnOrdenCuota_Click);
             // 
             // button1
             // 
@@ -73,6 +76,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "ORDENAR POR CUOTA DE MANTENIMIENTO ASCENDENTE";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAltosBajos
             // 
@@ -82,6 +86,7 @@
             this.btnAltosBajos.TabIndex = 4;
             this.btnAltosBajos.Text = "MOSTRAR 3 MAS ALTOS Y 3 MAS BAJOS";
             this.btnAltosBajos.UseVisualStyleBackColor = true;
+            this.btnAltosBajos.Click += new System.EventHandler(this.btnAltosBajos_Click);
             // 
             // button2
             // 
@@ -91,6 +96,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "MOSTRAR LA MAYOR CUOTA";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormReporte
             // 

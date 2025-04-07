@@ -99,6 +99,7 @@
             this.btnAgregar.TabIndex = 6;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnMostrar
             // 
@@ -108,10 +109,11 @@
             this.btnMostrar.TabIndex = 7;
             this.btnMostrar.Text = "ACTUALIZAR";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(878, 372);
+            this.btnCerrar.Location = new System.Drawing.Point(876, 372);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(130, 43);
             this.btnCerrar.TabIndex = 8;
@@ -127,6 +129,7 @@
             this.btnPropiedad.TabIndex = 9;
             this.btnPropiedad.Text = "INGRESAR PROPIEDAD";
             this.btnPropiedad.UseVisualStyleBackColor = true;
+            this.btnPropiedad.Click += new System.EventHandler(this.btnPropiedad_Click);
             // 
             // btnReporte
             // 
@@ -136,6 +139,7 @@
             this.btnReporte.TabIndex = 10;
             this.btnReporte.Text = "IR A REPORTE";
             this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // dataGridView1
             // 
@@ -146,6 +150,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(681, 188);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // FormPropietario
             // 
@@ -166,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormPropietario";
             this.Text = "FormPropietario";
+            this.Load += new System.EventHandler(this.FormPropietario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
